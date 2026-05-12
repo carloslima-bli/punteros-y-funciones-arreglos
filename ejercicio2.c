@@ -5,11 +5,13 @@ int main()
     char *ptr;
 
     ptr = &v[0];
+    *(ptr+3)='x';
 
     for (int i=0;i<5;i++)
     {
         printf ("%c",v[i]);
         printf ("%c\n",*(ptr+i));
+        
     }
     
 
