@@ -10,7 +10,7 @@ int main()
     {
         printf("arreglo[%d]= %d ",i,v[i]);
        // ptr=&v[i];
-        printf("%d\n" ,*(ptr++));
+        printf("%d\n" ,*(++ptr));
     }
 
     return 0;
